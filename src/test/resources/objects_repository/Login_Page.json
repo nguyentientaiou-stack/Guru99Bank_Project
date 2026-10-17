@@ -1,0 +1,9 @@
+{
+  "TXT_USERID": "//input[@name='uid']",
+  "TXT_PASSWORD": "//input[@name='password']",
+  "BTN_LOGIN": "//input[@name='btnLogin']",
+  "BTN_RESET": "//input[@name='btnReset']",
+  "LBL_USERID_MESSAGE": "//label[@id='message23']",
+  "LBL_PASSWORD_MESSAGE": "//label[@id='message18']",
+  "LNK_VISIT_HERE": "//li[contains(normalize-space(),'Visit')]/a[normalize-space()='here']"
+}

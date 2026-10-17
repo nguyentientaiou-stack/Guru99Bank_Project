@@ -1,0 +1,144 @@
+{
+  "NC1" : {
+    "customerName_test_data_1" : "",
+    "expected_error_message" : "Customer name must not be blank"
+  },
+  "NC2" : {
+    "customerName_test_data_1" : "1234",
+    "customerName_test_data_2" : "name123",
+    "expected_error_message" : "Numbers are not allowed"
+  },
+  "NC3" : {
+    "customerName_test_data_1" : "name!@#",
+    "customerName_test_data_2" : "!@#",
+    "expected_error_message" : "Special characters are not allowed"
+  },
+  "NC4" : {
+    "customerName_test_data_1" : " John",
+    "expected_error_message" : "First character can not have space"
+  },
+  "NC5" : {
+    "address_test_data_1" : "",
+    "expected_error_message" : "Address Field must not be blank"
+  },
+  "NC6" : {
+    "address_test_data_1" : " TestingAddress",
+    "expected_error_message" : "First character can not have space"
+  },
+  "NC8" : {
+    "city_test_data_1" : "",
+    "expected_error_message" : "City Field must not be blank"
+  },
+  "NC9" : {
+    "city_test_data_1" : "1234",
+    "city_test_data_2" : "city123",
+    "expected_error_message" : "Numbers are not allowed"
+  },
+  "NC10" : {
+    "city_test_data_1" : "City!@#",
+    "city_test_data_2" : "!@#",
+    "expected_error_message" : "Special characters are not allowed"
+  },
+  "NC11" : {
+    "city_test_data_1" : " TestingCity",
+    "expected_error_message" : "First character can not have space"
+  },
+  "NC12" : {
+    "state_test_data_1" : "",
+    "expected_error_message" : "State must not be blank"
+  },
+  "NC13" : {
+    "state_test_data_1" : "1234",
+    "state_test_data_2" : "State123",
+    "expected_error_message" : "Numbers are not allowed"
+  },
+  "NC14" : {
+    "state_test_data_1" : "State!@#",
+    "state_test_data_2" : "!@#",
+    "expected_error_message" : "Special characters are not allowed"
+  },
+  "NC15" : {
+    "state_test_data_1" : " TestingState",
+    "expected_error_message" : "First character can not have space"
+  },
+  "NC16" : {
+    "pin_test_data_1" : "1234",
+    "pin_test_data_2" : "1234PIN",
+    "expected_error_message" : "Characters are not allowed"
+  },
+  "NC17" : {
+    "pin_test_data_1" : "",
+    "expected_error_message" : "PIN Code must not be blank"
+  },
+  "NC18" : {
+    "pin_test_data_1" : "12",
+    "pin_test_data_2" : "123",
+    "expected_error_message" : "PIN Code must have 6 Digits"
+  },
+  "NC19" : {
+    "pin_test_data_1" : "!@#",
+    "pin_test_data_2" : "123!@#",
+    "expected_error_message" : "Special characters are not allowed"
+  },
+  "NC20" : {
+    "pin_test_data_1" : " 23456",
+    "expected_error_message" : "First character can not have space"
+  },
+  "NC21" : {
+    "pin_test_data_1" : "123 45",
+    "expected_error_message" : "Characters are not allowed"
+  },
+  "NC22" : {
+    "mobile_number_test_data_1" : "",
+    "expected_error_message" : "Mobile must not be blank"
+  },
+  "NC23" : {
+    "mobile_number_test_data_1" : " 123456",
+    "expected_error_message" : "First character can not have space"
+  },
+  "NC24" : {
+    "mobile_number_test_data_1" : "123 123",
+    "expected_error_message" : "Characters are not allowed"
+  },
+  "NC25" : {
+    "mobile_number_test_data_1" : "886636!@12",
+    "mobile_number_test_data_2" : "!@88662682",
+    "mobile_number_test_data_3" : "88663682!@",
+    "expected_error_message" : "Special characters are not allowed"
+  },
+  "NC26" : {
+    "email_test_data_1" : "",
+    "expected_error_message" : "Email-ID must not be blank"
+  },
+  "NC27" : {
+    "email_test_data_1" : "guru99@gmail",
+    "email_test_data_2" : "guru99",
+    "email_test_data_3" : "Guru99@",
+    "email_test_data_4" : "guru99@gmail.",
+    "email_test_data_5" : "guru99gmail.com",
+    "expected_error_message" : "Email-ID is not valid"
+  },
+  "NC29" : {
+    "email_test_data_1" : "guru 99@gmail.com",
+    "expected_error_message" : "Email-ID is not valid"
+  },
+  "NC30" : {
+    "password_test_data_1" : "",
+    "expected_error_message" : "Password must not be blank"
+  },
+  "NC31" : {
+    "customer_name" : "John",
+    "gender" : "Male",
+    "dob" : "16-Mar-1999",
+    "address" : "Testing",
+    "city" : "Testing",
+    "state" : "Testing",
+    "pin_number" : "111111",
+    "mobile_number" : "12345678",
+    "email" : "Testing@mailinator.com",
+    "password" : "Testing123"
+  },
+  "NC32" : {
+    "expected_register_successfully_message" : "Customer Registered Successfully!!!"
+  }
+}

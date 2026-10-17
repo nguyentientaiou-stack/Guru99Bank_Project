@@ -1,0 +1,4 @@
+{
+  "LBL_USER_ID": "//td[normalize-space()='User ID :']/following-sibling::td",
+  "LBL_PASSWORD": "//td[normalize-space()='Password :']/following-sibling::td"
+}

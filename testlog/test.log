@@ -1,0 +1,123 @@
+INFO  | 2026-10-17 18:41:53 | [main] testng.log4testng.Logger (Logger.java:info:112) - [TestNG] Running:
+  D:\Maven_Project\Projects\Guru99Bank_Project\src\test\resources\testsuits\login.xml
+
+INFO  | 2026-10-17 18:41:53 | [main] common.keywords.WebUI (WebUI.java:openBrowser:46) - Opening browser 'CHROME'
+INFO  | 2026-10-17 18:41:55 | [main] common.keywords.WebUI (WebUI.java:openBrowser:83) - Opened browser 'CHROME' successfully.
+INFO  | 2026-10-17 18:41:55 | [main] common.keywords.WebUI (WebUI.java:maximizeWindow:282) - Maximizing the window
+INFO  | 2026-10-17 18:41:55 | [main] common.keywords.WebUI (WebUI.java:maximizeWindow:284) - Maximized the window successfully
+INFO  | 2026-10-17 18:41:55 | [main] common.keywords.WebUI (WebUI.java:navigateTo:272) - Navigating to url 'https://demo.guru99.com/V4/index.php'
+INFO  | 2026-10-17 18:41:57 | [main] common.keywords.WebUI (WebUI.java:navigateTo:274) - Navigated to url 'https://demo.guru99.com/V4/index.php' successfully
+INFO  | 2026-10-17 18:41:57 | [main] common.keywords.WebUI (WebUI.java:refresh:242) - Refreshing the browser
+INFO  | 2026-10-17 18:41:58 | [main] common.keywords.WebUI (WebUI.java:refresh:244) - The browser is refreshed successfully
+INFO  | 2026-10-17 18:41:58 | [main] pages.BasePage (BasePage.java:findTestObject:39) - //input[@name='uid']
+INFO  | 2026-10-17 18:41:58 | [main] common.keywords.WebUI (WebUI.java:findWebElement:293) - Finding web element located by '//input[@name='uid']'
+INFO  | 2026-10-17 18:41:58 | [main] common.keywords.WebUI (WebUI.java:findWebElement:297) - Found web element located by '//input[@name='uid']'
+INFO  | 2026-10-17 18:41:58 | [main] common.keywords.WebUI (WebUI.java:pressTabToElement:356) - Pressing Tab into web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //input[@name='uid']]'
+INFO  | 2026-10-17 18:41:58 | [main] common.keywords.WebUI (WebUI.java:pressTabToElement:358) - Pressed Tab into web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //input[@name='uid']]' successfully
+INFO  | 2026-10-17 18:41:58 | [main] pages.BasePage (BasePage.java:findTestObject:39) - //input[@name='uid']
+INFO  | 2026-10-17 18:41:58 | [main] common.keywords.WebUI (WebUI.java:findWebElement:293) - Finding web element located by '//input[@name='uid']'
+INFO  | 2026-10-17 18:41:58 | [main] common.keywords.WebUI (WebUI.java:findWebElement:297) - Found web element located by '//input[@name='uid']'
+INFO  | 2026-10-17 18:41:58 | [main] common.keywords.WebUI (WebUI.java:takeScreenshotWithHighlight:1469) - Taking screenshot of the page with web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //input[@name='uid']]' highlighted
+INFO  | 2026-10-17 18:41:58 | [main] common.keywords.WebUI (WebUI.java:takeScreenshotWithHighlight:1473) - Took screenshot of the page with web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //input[@name='uid']]' highlighted successfully
+INFO  | 2026-10-17 18:41:58 | [main] pages.BasePage (BasePage.java:findTestObject:39) - //label[@id='message23']
+INFO  | 2026-10-17 18:41:58 | [main] common.keywords.WebUI (WebUI.java:findWebElement:293) - Finding web element located by '//label[@id='message23']'
+INFO  | 2026-10-17 18:41:58 | [main] common.keywords.WebUI (WebUI.java:findWebElement:297) - Found web element located by '//label[@id='message23']'
+INFO  | 2026-10-17 18:41:58 | [main] common.keywords.WebUI (WebUI.java:verifyElementVisible:637) - Verifying element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //label[@id='message23']]' visible
+INFO  | 2026-10-17 18:41:58 | [main] common.keywords.WebUI (WebUI.java:verifyElementVisible:640) - Element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //label[@id='message23']]' is visible
+INFO  | 2026-10-17 18:41:58 | [main] pages.BasePage (BasePage.java:findTestObject:39) - //label[@id='message23']
+INFO  | 2026-10-17 18:41:58 | [main] common.keywords.WebUI (WebUI.java:findWebElement:293) - Finding web element located by '//label[@id='message23']'
+INFO  | 2026-10-17 18:41:58 | [main] common.keywords.WebUI (WebUI.java:findWebElement:297) - Found web element located by '//label[@id='message23']'
+INFO  | 2026-10-17 18:41:58 | [main] common.keywords.WebUI (WebUI.java:verifyElementText:755) - Verifying text of web element located by '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //label[@id='message23']]'
+INFO  | 2026-10-17 18:41:58 | [main] common.keywords.WebUI (WebUI.java:verifyElementText:758) - Text of web element located by '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //label[@id='message23']]' is 'User-ID must not be blank' 
+INFO  | 2026-10-17 18:41:58 | [main] pages.BasePage (BasePage.java:findTestObject:39) - //label[@id='message23']
+INFO  | 2026-10-17 18:41:58 | [main] common.keywords.WebUI (WebUI.java:findWebElement:293) - Finding web element located by '//label[@id='message23']'
+INFO  | 2026-10-17 18:41:58 | [main] common.keywords.WebUI (WebUI.java:findWebElement:297) - Found web element located by '//label[@id='message23']'
+INFO  | 2026-10-17 18:41:58 | [main] common.keywords.WebUI (WebUI.java:takeScreenshotWithHighlight:1469) - Taking screenshot of the page with web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //label[@id='message23']]' highlighted
+INFO  | 2026-10-17 18:41:58 | [main] common.keywords.WebUI (WebUI.java:takeScreenshotWithHighlight:1473) - Took screenshot of the page with web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //label[@id='message23']]' highlighted successfully
+INFO  | 2026-10-17 18:41:58 | [main] common.keywords.WebUI (WebUI.java:refresh:242) - Refreshing the browser
+INFO  | 2026-10-17 18:41:59 | [main] common.keywords.WebUI (WebUI.java:refresh:244) - The browser is refreshed successfully
+INFO  | 2026-10-17 18:41:59 | [main] common.keywords.WebUI (WebUI.java:refresh:242) - Refreshing the browser
+INFO  | 2026-10-17 18:42:00 | [main] common.keywords.WebUI (WebUI.java:refresh:244) - The browser is refreshed successfully
+INFO  | 2026-10-17 18:42:00 | [main] pages.BasePage (BasePage.java:findTestObject:39) - //input[@name='password']
+INFO  | 2026-10-17 18:42:00 | [main] common.keywords.WebUI (WebUI.java:findWebElement:293) - Finding web element located by '//input[@name='password']'
+INFO  | 2026-10-17 18:42:00 | [main] common.keywords.WebUI (WebUI.java:findWebElement:297) - Found web element located by '//input[@name='password']'
+INFO  | 2026-10-17 18:42:00 | [main] common.keywords.WebUI (WebUI.java:pressTabToElement:356) - Pressing Tab into web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //input[@name='password']]'
+INFO  | 2026-10-17 18:42:00 | [main] common.keywords.WebUI (WebUI.java:pressTabToElement:358) - Pressed Tab into web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //input[@name='password']]' successfully
+INFO  | 2026-10-17 18:42:00 | [main] pages.BasePage (BasePage.java:findTestObject:39) - //input[@name='password']
+INFO  | 2026-10-17 18:42:00 | [main] common.keywords.WebUI (WebUI.java:findWebElement:293) - Finding web element located by '//input[@name='password']'
+INFO  | 2026-10-17 18:42:00 | [main] common.keywords.WebUI (WebUI.java:findWebElement:297) - Found web element located by '//input[@name='password']'
+INFO  | 2026-10-17 18:42:00 | [main] common.keywords.WebUI (WebUI.java:takeScreenshotWithHighlight:1469) - Taking screenshot of the page with web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //input[@name='password']]' highlighted
+INFO  | 2026-10-17 18:42:00 | [main] common.keywords.WebUI (WebUI.java:takeScreenshotWithHighlight:1473) - Took screenshot of the page with web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //input[@name='password']]' highlighted successfully
+INFO  | 2026-10-17 18:42:00 | [main] pages.BasePage (BasePage.java:findTestObject:39) - //label[@id='message18']
+INFO  | 2026-10-17 18:42:00 | [main] common.keywords.WebUI (WebUI.java:findWebElement:293) - Finding web element located by '//label[@id='message18']'
+INFO  | 2026-10-17 18:42:00 | [main] common.keywords.WebUI (WebUI.java:findWebElement:297) - Found web element located by '//label[@id='message18']'
+INFO  | 2026-10-17 18:42:00 | [main] common.keywords.WebUI (WebUI.java:verifyElementVisible:637) - Verifying element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //label[@id='message18']]' visible
+INFO  | 2026-10-17 18:42:00 | [main] common.keywords.WebUI (WebUI.java:verifyElementVisible:640) - Element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //label[@id='message18']]' is visible
+INFO  | 2026-10-17 18:42:00 | [main] pages.BasePage (BasePage.java:findTestObject:39) - //label[@id='message18']
+INFO  | 2026-10-17 18:42:00 | [main] common.keywords.WebUI (WebUI.java:findWebElement:293) - Finding web element located by '//label[@id='message18']'
+INFO  | 2026-10-17 18:42:00 | [main] common.keywords.WebUI (WebUI.java:findWebElement:297) - Found web element located by '//label[@id='message18']'
+INFO  | 2026-10-17 18:42:00 | [main] common.keywords.WebUI (WebUI.java:verifyElementText:755) - Verifying text of web element located by '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //label[@id='message18']]'
+INFO  | 2026-10-17 18:42:00 | [main] common.keywords.WebUI (WebUI.java:verifyElementText:758) - Text of web element located by '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //label[@id='message18']]' is 'Password must not be blank' 
+INFO  | 2026-10-17 18:42:00 | [main] pages.BasePage (BasePage.java:findTestObject:39) - //label[@id='message18']
+INFO  | 2026-10-17 18:42:00 | [main] common.keywords.WebUI (WebUI.java:findWebElement:293) - Finding web element located by '//label[@id='message18']'
+INFO  | 2026-10-17 18:42:00 | [main] common.keywords.WebUI (WebUI.java:findWebElement:297) - Found web element located by '//label[@id='message18']'
+INFO  | 2026-10-17 18:42:00 | [main] common.keywords.WebUI (WebUI.java:takeScreenshotWithHighlight:1469) - Taking screenshot of the page with web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //label[@id='message18']]' highlighted
+INFO  | 2026-10-17 18:42:00 | [main] common.keywords.WebUI (WebUI.java:takeScreenshotWithHighlight:1473) - Took screenshot of the page with web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //label[@id='message18']]' highlighted successfully
+INFO  | 2026-10-17 18:42:00 | [main] common.keywords.WebUI (WebUI.java:refresh:242) - Refreshing the browser
+INFO  | 2026-10-17 18:42:01 | [main] common.keywords.WebUI (WebUI.java:refresh:244) - The browser is refreshed successfully
+INFO  | 2026-10-17 18:42:01 | [main] common.keywords.WebUI (WebUI.java:refresh:242) - Refreshing the browser
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:refresh:244) - The browser is refreshed successfully
+INFO  | 2026-10-17 18:42:02 | [main] pages.BasePage (BasePage.java:findTestObject:39) - //input[@name='uid']
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:findWebElement:293) - Finding web element located by '//input[@name='uid']'
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:findWebElement:297) - Found web element located by '//input[@name='uid']'
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:inputText:323) - Input text 'mngr668697' into web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //input[@name='uid']]'
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:inputText:325) - Inputted text 'mngr668697' into web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //input[@name='uid']]' successfully
+INFO  | 2026-10-17 18:42:02 | [main] pages.BasePage (BasePage.java:findTestObject:39) - //input[@name='uid']
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:findWebElement:293) - Finding web element located by '//input[@name='uid']'
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:findWebElement:297) - Found web element located by '//input[@name='uid']'
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:pressTabToElement:356) - Pressing Tab into web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //input[@name='uid']]'
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:pressTabToElement:358) - Pressed Tab into web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //input[@name='uid']]' successfully
+INFO  | 2026-10-17 18:42:02 | [main] pages.BasePage (BasePage.java:findTestObject:39) - //input[@name='uid']
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:findWebElement:293) - Finding web element located by '//input[@name='uid']'
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:findWebElement:297) - Found web element located by '//input[@name='uid']'
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:takeScreenshotWithHighlight:1469) - Taking screenshot of the page with web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //input[@name='uid']]' highlighted
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:takeScreenshotWithHighlight:1473) - Took screenshot of the page with web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //input[@name='uid']]' highlighted successfully
+INFO  | 2026-10-17 18:42:02 | [main] pages.BasePage (BasePage.java:findTestObject:39) - //input[@name='password']
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:findWebElement:293) - Finding web element located by '//input[@name='password']'
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:findWebElement:297) - Found web element located by '//input[@name='password']'
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:inputText:323) - Input text 'navUzur' into web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //input[@name='password']]'
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:inputText:325) - Inputted text 'navUzur' into web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //input[@name='password']]' successfully
+INFO  | 2026-10-17 18:42:02 | [main] pages.BasePage (BasePage.java:findTestObject:39) - //input[@name='password']
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:findWebElement:293) - Finding web element located by '//input[@name='password']'
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:findWebElement:297) - Found web element located by '//input[@name='password']'
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:pressTabToElement:356) - Pressing Tab into web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //input[@name='password']]'
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:pressTabToElement:358) - Pressed Tab into web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //input[@name='password']]' successfully
+INFO  | 2026-10-17 18:42:02 | [main] pages.BasePage (BasePage.java:findTestObject:39) - //input[@name='password']
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:findWebElement:293) - Finding web element located by '//input[@name='password']'
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:findWebElement:297) - Found web element located by '//input[@name='password']'
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:takeScreenshotWithHighlight:1469) - Taking screenshot of the page with web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //input[@name='password']]' highlighted
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:takeScreenshotWithHighlight:1473) - Took screenshot of the page with web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //input[@name='password']]' highlighted successfully
+INFO  | 2026-10-17 18:42:02 | [main] pages.BasePage (BasePage.java:findTestObject:39) - //input[@name='btnLogin']
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:findWebElement:293) - Finding web element located by '//input[@name='btnLogin']'
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:findWebElement:297) - Found web element located by '//input[@name='btnLogin']'
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:takeScreenshotWithHighlight:1469) - Taking screenshot of the page with web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //input[@name='btnLogin']]' highlighted
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:takeScreenshotWithHighlight:1473) - Took screenshot of the page with web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //input[@name='btnLogin']]' highlighted successfully
+INFO  | 2026-10-17 18:42:02 | [main] pages.BasePage (BasePage.java:findTestObject:39) - //input[@name='btnLogin']
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:findWebElement:293) - Finding web element located by '//input[@name='btnLogin']'
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:findWebElement:297) - Found web element located by '//input[@name='btnLogin']'
+INFO  | 2026-10-17 18:42:02 | [main] common.keywords.WebUI (WebUI.java:click:385) - Clicking on web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //input[@name='btnLogin']]'
+INFO  | 2026-10-17 18:42:03 | [main] common.keywords.WebUI (WebUI.java:click:387) - Clicked on web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //input[@name='btnLogin']]' successfully
+INFO  | 2026-10-17 18:42:03 | [main] pages.BasePage (BasePage.java:findTestObject:39) - //td[contains(text(),'Manger Id')]
+INFO  | 2026-10-17 18:42:03 | [main] common.keywords.WebUI (WebUI.java:findWebElement:293) - Finding web element located by '//td[contains(text(),'Manger Id')]'
+INFO  | 2026-10-17 18:42:03 | [main] common.keywords.WebUI (WebUI.java:findWebElement:297) - Found web element located by '//td[contains(text(),'Manger Id')]'
+INFO  | 2026-10-17 18:42:03 | [main] common.keywords.WebUI (WebUI.java:verifyElementVisible:637) - Verifying element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //td[contains(text(),'Manger Id')]]' visible
+INFO  | 2026-10-17 18:42:03 | [main] common.keywords.WebUI (WebUI.java:verifyElementVisible:640) - Element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //td[contains(text(),'Manger Id')]]' is visible
+INFO  | 2026-10-17 18:42:03 | [main] pages.BasePage (BasePage.java:findTestObject:39) - //td[contains(text(),'Manger Id')]
+INFO  | 2026-10-17 18:42:03 | [main] common.keywords.WebUI (WebUI.java:findWebElement:293) - Finding web element located by '//td[contains(text(),'Manger Id')]'
+INFO  | 2026-10-17 18:42:03 | [main] common.keywords.WebUI (WebUI.java:findWebElement:297) - Found web element located by '//td[contains(text(),'Manger Id')]'
+INFO  | 2026-10-17 18:42:03 | [main] common.keywords.WebUI (WebUI.java:takeScreenshotWithHighlight:1469) - Taking screenshot of the page with web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //td[contains(text(),'Manger Id')]]' highlighted
+INFO  | 2026-10-17 18:42:03 | [main] common.keywords.WebUI (WebUI.java:takeScreenshotWithHighlight:1473) - Took screenshot of the page with web element '[[ChromeDriver: chrome on windows (16d8b3befdc1c6ebe9b3bde38dba3765)] -> xpath: //td[contains(text(),'Manger Id')]]' highlighted successfully
+INFO  | 2026-10-17 18:42:03 | [main] common.keywords.WebUI (WebUI.java:refresh:242) - Refreshing the browser
+INFO  | 2026-10-17 18:42:04 | [main] common.keywords.WebUI (WebUI.java:refresh:244) - The browser is refreshed successfully
+INFO  | 2026-10-17 18:42:04 | [main] common.keywords.WebUI (WebUI.java:closeBrowser:92) - Closing Browser
+INFO  | 2026-10-17 18:42:04 | [main] common.keywords.WebUI (WebUI.java:closeBrowser:94) - Closed Browser successfully

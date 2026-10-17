@@ -1,0 +1,23 @@
+{
+  "LNK_NEW_CUSTOMER": "//a[contains(@href,'addcustomer')]",
+  "TXT_CUSTOMER_NAME": "//input[@name='name']",
+  "TXA_ADDRESS": "//textarea[@name='addr']",
+  "TXT_CITY": "//input[@name='city']",
+  "TXT_STATE": "//input[@name='state']",
+  "TXT_PIN": "//input[@name='pinno']",
+  "TXT_MOBILE_NUMBER": "//input[@name='telephoneno']",
+  "TXT_EMAIL": "//input[@name='emailid']",
+  "TXT_PASSWORD": "//input[@name='password']",
+  "LBL_CUSTOMER_NAME_MESSAGE": "//label[@id='message']",
+  "LBL_ADDRESS_MESSAGE": "//label[@id='message3']",
+  "LBL_CITY_MESSAGE": "//label[@id='message4']",
+  "LBL_STATE_MESSAGE": "//label[@id='message5']",
+  "LBL_PIN_MESSAGE": "//label[@id='message6']",
+  "LBL_MOBILE_NUMBER_MESSAGE": "//label[@id='message7']",
+  "LBL_EMAIL_MESSAGE": "//label[@id='message9']",
+  "LBL_PASSWORD_MESSAGE": "//label[@id='message18']",
+  "RDO_GENDER_MALE": "//input[@value='m']",
+  "RDO_GENDER_FEMALE": "//input[@value='f']",
+  "DTP_DATE_OF_BIRTH": "//input[@id='dob']",
+  "BTN_SUBMIT": "//input[@name='sub']"
+}

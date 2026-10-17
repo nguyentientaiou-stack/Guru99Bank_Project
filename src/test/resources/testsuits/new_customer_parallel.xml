@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite" parallel="tests" thread-count="3">
+  <test name="New_Customer_Test_With_Chrome" preserve-order="true">
+    <parameter name="browser" value="Chrome_remote"></parameter>
+    <groups>
+      <run>
+        <include name="full_test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Guru99.NewCustomer_Demo"/>
+    </classes>
+  </test>
+  <test name="New_Customer_Test_With_Firefox" preserve-order="true" >
+    <parameter name="browser" value="Firefox_remote"></parameter>
+    <groups>
+      <run>
+        <include name="full_test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Guru99.NewCustomer_Demo"/>
+    </classes>
+  </test>
+</suite>

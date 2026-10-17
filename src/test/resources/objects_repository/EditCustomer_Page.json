@@ -1,0 +1,20 @@
+{
+   "TXT_USERID": "//input[@name='uid']",
+   "TXT_PASSWORD":"//input[@name='password']",
+   "BTN_LOGIN": "//input[@name='btnLogin']",
+   "LNK_EDIT_CUSTOMER": "//a[contains(@href,'EditCustomer')]",
+   "TXT_CUSTOMER_ID": "//input[@name='cusid']",
+   "BTN_SUBMIT": "//input[@type='submit']",
+   "LBL_CUSTOMER_ID_MESSAGE": "//label[@id='message14']",
+   "EDIT_CUSTOMER_PAGE_URL": "https://demo.guru99.com/V4/html/editCustomerPage.php",
+
+   "TXT_CUSTOMER_NAME": "//input[@name='name']",
+   "TXT_GENDER": "//input[@name='gender']",
+   "TXT_DOB": "//input[@name='dob']",
+   "TXA_ADDRESS": "//textarea[@name='addr']",
+   "TXT_CITY": "//input[@name='city']",
+   "TXT_STATE": "//input[@name='state']",
+   "TXT_PIN": "//input[@name='pinno']",
+   "TXT_MOBILE_NUMBER": "//input[@name='telephoneno']",
+   "TXT_EMAIL": "//input[@name='emailid']"
+}

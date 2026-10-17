@@ -1,0 +1,27 @@
+{
+  "EC1": {
+    "customerID_test_data_1": "",
+    "expected_error_message": "Customer ID is required"
+  },
+  "EC2": {
+    "customerID_test_data_1": "1234Acc",
+    "customerID_test_data_2": "Acc123",
+    "expected_error_message": "Characters are not allowed"
+  },
+  "EC3": {
+    "customerID_test_data_1": "123!@#",
+    "customerID_test_data_2": "!@#",
+    "expected_error_message": "Special characters are not allowed"
+  },
+  "EC4": {
+    "customerID_test_data_1": "123"
+  },
+  "EC5": {
+    "address" : "UpdatedAddress",
+    "city" : "UpdatedCity",
+    "state" : "UpdatedState",
+    "pin_number" : "135790",
+    "mobile_number" : "135790",
+    "email" : "UpdatedMail@mailinator.com"
+  }
+}

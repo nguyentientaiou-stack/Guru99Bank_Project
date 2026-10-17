@@ -1,0 +1,4 @@
+{
+  "LBL_SUCCESS_MESSAGE": "//p[@class='heading3']",
+  "LBL_CUSTOMER_INFO": "//td[normalize-space()='%s']/following-sibling::td"
+}

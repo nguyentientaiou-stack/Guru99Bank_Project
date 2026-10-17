@@ -1,0 +1,16 @@
+{
+  "TBL_REGISTERED_CUSTOMER_DETAILS": "//tbody/tr",
+  "LBL_REGISTERED_CUSTOMER_SUCCESSFULLY": "//p[@class='heading3']",
+
+  "DGD_CUSTOMER_ID": "//td[text()='Customer ID']/following-sibling::td",
+  "DGD_CUSTOMER_NAME": "//td[text()='Customer Name']/following-sibling::td",
+  "DGD_CUSTOMER_GENDER": "//td[text()='Gender']/following-sibling::td",
+  "DGD_CUSTOMER_BIRTHDAY": "//td[text()='Birthdate']/following-sibling::td",
+  "DGD_CUSTOMER_ADDRESS": "//td[text()='Address']/following-sibling::td",
+  "DGD_CUSTOMER_CITY": "//td[text()='City']/following-sibling::td",
+  "DGD_CUSTOMER_STATE": "//td[text()='State']/following-sibling::td",
+  "DGD_CUSTOMER_PIN": "//td[text()='Pin']/following-sibling::td",
+  "DGD_CUSTOMER_MOBILE_NUMBER": "//td[text()='Mobile No.']/following-sibling::td",
+  "DGD_CUSTOMER_EMAIL": "//td[text()='Email']/following-sibling::td"
+
+}

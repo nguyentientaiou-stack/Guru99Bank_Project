@@ -1,0 +1,8 @@
+{
+  "LBL_WELCOME_MESSAGE": "//marquee[@class='heading3']",
+  "LBL_MANAGER_ID": "//td[contains(text(),'Manger Id')]",
+  "LNK_EDIT_CUSTOMER": "//a[contains(@href,'EditCustomer')]",
+  "LNK_NEW_CUSTOMER": "//a[contains(@href,'addcustomer')]",
+  "LNK_NEW_ACCOUNT": "//a[text()='New Account']",
+  "LNK_DELETE_CUSTOMER": "//a[contains(@href,'DeleteCustomer')]"
+}

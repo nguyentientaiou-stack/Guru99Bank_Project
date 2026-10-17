@@ -1,0 +1,4 @@
+{
+  "TXT_CUSTOMER_ID": "//input[@name='cusid']",
+  "BTN_SUBMIT": "//input[@type='submit']"
+}
