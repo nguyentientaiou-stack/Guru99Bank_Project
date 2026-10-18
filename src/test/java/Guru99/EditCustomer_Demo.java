@@ -84,6 +84,7 @@ public class EditCustomer_Demo extends BaseTest {
   @Test(groups = {"full_test", "edit"}, priority = 5)
   public void EC5_Edit_customer_id(){
     setData("NewCustomerInfo");
+
     editCustomerPage.inputCustomerIDField(findTestData("customer_id"));
     editCustomerPage.clickSubmit();
 
