@@ -49,7 +49,7 @@ public class EditCustomer_Demo extends BaseTest {
 
   @Test(groups = {"full_test"}, priority = 1)
   public void EC1_Customer_id_can_not_be_empty(){
-    editCustomerPage.pressTabAtCustomerIDFieldToMoveToNextField();
+    editCustomerPage.inputCustomerIDField(findTestData("EC1.customerID_test_data_1"));
     assertTrue(editCustomerPage.shouldShowErrorMessageForCustomerIDField(findTestData("EC1.expected_error_message")));
   }
 
@@ -75,9 +75,10 @@ public class EditCustomer_Demo extends BaseTest {
 
   @Test(groups = {"full_test"}, priority = 4)
   public void EC4_Input_valid_customer_id(){
-    setData("NewCustomer");
+    setData("NewCustomerInfo");
 
-    editCustomerPage.inputCustomerIDField(findTestData("CUSTOMER_ID"));
+    editCustomerPage.inputCustomerIDField(findTestData("customer_id"));
+
     assertTrue(editCustomerPage.shouldNotShowErrorMessageForCustomerIDField());
   }
 

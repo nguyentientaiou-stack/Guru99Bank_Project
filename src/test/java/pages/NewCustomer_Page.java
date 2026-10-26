@@ -176,6 +176,15 @@ public class NewCustomer_Page extends BasePage {
     return false;
   }
 
+  @Step("Error message should not be shown for Date of Birth field")
+  public boolean shouldNotShowErrorMessageForDOBField() {
+    if (webUI.verifyElementInvisible(findTestObject("LBL_DOB_MESSAGE"))) {
+      webUI.takeScreenshotWithHighlight(findTestObject("LBL_DOB_MESSAGE"));
+      return true;
+    }
+    return false;
+  }
+
   @Step("Error message should not be shown for PIN field")
   public boolean shouldNotShowErrorMessageForPINField() {
     if (webUI.verifyElementInvisible(findTestObject("LBL_PIN_MESSAGE"))) {
@@ -219,6 +228,18 @@ public class NewCustomer_Page extends BasePage {
     boolean isMessageCorrect = webUI.verifyElementText(findTestObject("LBL_CUSTOMER_NAME_MESSAGE"), expectedMessage);
     if (isMessageVisible && isMessageCorrect) {
       webUI.takeScreenshotWithHighlight(findTestObject("LBL_CUSTOMER_NAME_MESSAGE"));
+      return true;
+    }
+    return false;
+  }
+
+  @Step("Error message {0} should be shown for Date of Birth field")
+  public boolean shouldShowErrorMessageForDateOfBirthField(String expectedMessage) {
+    webUI.takeScreenshotWithHighlight(findTestObject("LBL_DOB_MESSAGE"));
+    boolean isMessageVisible = webUI.verifyElementVisible(findTestObject("LBL_DOB_MESSAGE"));
+    boolean isMessageCorrect = webUI.verifyElementText(findTestObject("LBL_DOB_MESSAGE"), expectedMessage);
+    if (isMessageVisible && isMessageCorrect) {
+      webUI.takeScreenshotWithHighlight(findTestObject("LBL_DOB_MESSAGE"));
       return true;
     }
     return false;

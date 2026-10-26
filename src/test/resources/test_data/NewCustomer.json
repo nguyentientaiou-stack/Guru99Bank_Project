@@ -25,6 +25,9 @@
     "address_test_data_1" : " TestingAddress",
     "expected_error_message" : "First character can not have space"
   },
+  "NC7" : {
+    "expected_error_message" : "Date Field must not be blank"
+  },
   "NC8" : {
     "city_test_data_1" : "",
     "expected_error_message" : "City Field must not be blank"

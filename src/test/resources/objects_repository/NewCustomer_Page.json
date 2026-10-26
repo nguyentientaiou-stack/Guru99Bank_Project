@@ -9,6 +9,7 @@
   "TXT_EMAIL": "//input[@name='emailid']",
   "TXT_PASSWORD": "//input[@name='password']",
   "LBL_CUSTOMER_NAME_MESSAGE": "//label[@id='message']",
+  "LBL_DOB_MESSAGE": "//label[@id='message24']",
   "LBL_ADDRESS_MESSAGE": "//label[@id='message3']",
   "LBL_CITY_MESSAGE": "//label[@id='message4']",
   "LBL_STATE_MESSAGE": "//label[@id='message5']",

@@ -1,5 +1,5 @@
 {
   "LG1": { "user_id": "", "error_message": "User-ID must not be blank"},
   "LG2": { "password": "", "error_message": "Password must not be blank"},
-  "LG3": {"user_id": "mngr666372", "user_password": "bAtAqAg", "expected_message": "Manger Id : "}
+  "LG3": { "user_id": "Testing", "user_password": "Testing", "expected_message": "User or Password is not valid"}
 }

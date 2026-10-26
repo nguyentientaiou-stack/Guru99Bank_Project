@@ -1,4 +1,5 @@
 {
   "TXT_CUSTOMER_ID": "//input[@name='cusid']",
-  "BTN_SUBMIT": "//input[@type='submit']"
+  "BTN_SUBMIT": "//input[@type='submit']",
+  "LBL_CUSTOMER_ID_MESSAGE": "//label[@id='message14']"
 }

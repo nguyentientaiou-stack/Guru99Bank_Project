@@ -1,8 +1,12 @@
 package pages;
 
+import Guru99.BaseTest;
 import common.keywords.WebUI;
 import io.qameta.allure.Step;
 import org.apache.commons.lang3.StringUtils;
+import org.openqa.selenium.devtools.latest.log.Log;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import utils.RegisterUserHelper;
 
 public class Login_Page extends BasePage{
@@ -125,6 +129,11 @@ public class Login_Page extends BasePage{
           "Failed to register a new user, got User ID '" + userId + "' and Password '" + password + "'");
     }
     RegisterUserHelper.save(userId, password, email);
+  }
+
+  @Step("Invalid username or password alert should appear")
+  public boolean shouldInvalidUserNamePasswordAlertAppear(String expectedMessage) {
+    return webUI.verifyAlertPresent() && webUI.getAlertTextThenAcceptAlert().equals(expectedMessage);
   }
 }
 

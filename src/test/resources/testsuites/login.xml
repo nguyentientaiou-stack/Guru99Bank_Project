@@ -11,4 +11,10 @@
       <class name="Guru99.LoginPage_Demo"/>
     </classes>
   </test>
+  <!--<test name="Test-Suite-2" >
+    <parameter name="browser" value="Chrome"></parameter>
+    <classes>
+      <class name="Guru99.LoginPage_Demo" />
+    </classes>
+  </test>-->
 </suite>
