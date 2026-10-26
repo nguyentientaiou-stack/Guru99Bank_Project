@@ -1,5 +1,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="Test-Suite" >
+  <test name="Add_New_Customer_Test" preserve-order="true" >
+    <parameter name="browser" value="Chrome"></parameter>
+    <groups>
+      <run>
+        <include name="create"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Guru99.NewCustomer_Demo"/>
+    </classes>
+  </test>
   <test name="Delete_Customer_Test" preserve-order="true" >
     <parameter name="browser" value="Chrome"></parameter>
     <groups>

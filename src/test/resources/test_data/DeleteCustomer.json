@@ -1,0 +1,23 @@
+{
+  "DC1": {
+    "customerName_test_data_1" : "",
+    "expected_error_message" : "Customer ID is required"
+  },
+  "DC2": {
+    "customerName_test_data_1" : "Acc123",
+    "expected_error_message" : "Characters are not allowed"
+  },
+  "DC3": {
+    "customerName_test_data_1" : "123!@#",
+    "customerName_test_data_2" : "!@#",
+    "expected_error_message" : "Special characters are not allowed"
+  },
+  "DC4": {
+    "customerName_test_data_1" : "123 12",
+    "expected_error_message" : "Characters are not allowed"
+  },
+  "DC5": {
+    "customerName_test_data_1" : " ",
+    "expected_error_message" : "First character can not have space"
+  }
+}

@@ -17,14 +17,13 @@ public class EditCustomer_Page extends BasePage {
 
   @Step
   public void inputCustomerIDField(String customerID) {
-    webUI.inputText(findTestObject("TXT_CUSTOMER_ID"), customerID);
-    webUI.takeScreenshotWithHighlight(findTestObject("TXT_CUSTOMER_ID"));
-  }
-
-  @Step
-  public void pressTabAtCustomerIDFieldToMoveToNextField() {
-    webUI.pressTabToElement(findTestObject("TXT_CUSTOMER_ID"));
-    webUI.takeScreenshotWithHighlight(findTestObject("TXT_CUSTOMER_ID"));
+    if (customerID.isEmpty()) {
+      webUI.pressTabToElement(findTestObject("TXT_CUSTOMER_ID"));
+      webUI.takeScreenshotWithHighlight(findTestObject("TXT_CUSTOMER_ID"));
+    } else {
+      webUI.inputText(findTestObject("TXT_CUSTOMER_ID"), customerID);
+      webUI.takeScreenshotWithHighlight(findTestObject("TXT_CUSTOMER_ID"));
+    }
   }
 
   @Step
