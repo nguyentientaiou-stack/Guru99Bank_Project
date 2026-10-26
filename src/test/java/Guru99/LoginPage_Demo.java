@@ -3,6 +3,7 @@ package Guru99;
 import static org.testng.Assert.assertTrue;
 
 import common.keywords.WebUI;
+import net.datafaker.Faker;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
@@ -52,10 +53,20 @@ public class LoginPage_Demo extends BaseTest{
   }
 
   @Test(groups = {"full_test"}, priority = 3)
-  public void LG3_Verify_the_login_page_show_text_for_name(){
+  public void LG3_Verify_incorrect_account_can_not_login(){
+    loginPage.loginToAccount(findTestData("LG3.user_id"), findTestData("LG3.user_password"));
+
+    assertTrue(loginPage.shouldInvalidUserNamePasswordAlertAppear(findTestData("LG3.expected_message")));
+    assertTrue(loginPage.isMoveToNextPage(LOGIN_PAGE_URL));
+  }
+
+  @Test(groups = {"full_test"}, priority = 4)
+  public void LG4_Verify_the_login_page_show_text_for_name(){
     setData("RegisteredUser");
 
     loginPage.loginToAccount(findTestData("userId"), findTestData("password"));
+
+    assertTrue(loginPage.isMoveToNextPage(MANAGER_PAGE_URL));
     assertTrue(managerPage.shouldMangerIDShowInThePage());
   }
 }

@@ -78,5 +78,6 @@ public class BaseTest {
   //
   public final String LOGIN_PAGE_URL = "https://demo.guru99.com/V4/index.php";
   public final String CUSTOMER_REG_MSG_PAGE_URL = "https://demo.guru99.com/V4/manager/CustomerRegMsg.php";
+  public final String MANAGER_PAGE_URL = "https://demo.guru99.com/V4/manager/Managerhomepage.php";
 
 }

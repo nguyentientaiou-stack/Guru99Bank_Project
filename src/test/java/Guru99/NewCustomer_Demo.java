@@ -86,6 +86,12 @@ public class NewCustomer_Demo extends BaseTest {
     assertTrue(newCustomerPage.shouldShowErrorMessageForAddressNameField(findTestData("NC6.expected_error_message")));
   }
 
+  @Test(groups = {"full_test"}, priority = 7)
+  public void NC7_DOB_can_not_be_empty() {
+    newCustomerPage.setDateOfBirth("");
+    assertTrue(newCustomerPage.shouldShowErrorMessageForDateOfBirthField(findTestData("NC7.expected_error_message")));
+  }
+
   @Test(groups = {"full_test"}, priority = 8)
   public void NC8_City_can_not_be_empty() {
     newCustomerPage.inputCityField(findTestData("NC8.city_test_data_1"));
@@ -271,6 +277,7 @@ public class NewCustomer_Demo extends BaseTest {
     newCustomerPage.inputAllCustomerInformationFields(customer);
 
     assertTrue(newCustomerPage.shouldNotShowErrorMessageForCustomerNameField());
+    assertTrue(newCustomerPage.shouldNotShowErrorMessageForDOBField());
     assertTrue(newCustomerPage.shouldNotShowErrorMessageForAddressNameField());
     assertTrue(newCustomerPage.shouldNotShowErrorMessageForCityField());
     assertTrue(newCustomerPage.shouldNotShowErrorMessageForStateField());
