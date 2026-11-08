@@ -95,9 +95,8 @@ public class DeleteCustomer_Demo extends BaseTest {
     assertTrue(deleteCustomerPage.shouldShowErrorMessageForCustomerIDField(findTestData("DC5.expected_error_message")));
   }
 
-  @Parameters({"browser"})
   @Test(groups = {"full_test", "delete"})
-  public void DC6_Delete_customer(String browser)
+  public void DC6_Delete_customer()
   {
     setData("NewCustomerInfo");
 
